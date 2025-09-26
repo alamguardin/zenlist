@@ -1,0 +1,47 @@
+:root {
+    font-family: "Edu SA Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/* General Styles */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F6F4;
+}
+
+/* Main Content Styles */
+main {
+    width: 100%;
+    height: 100dvh;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: centes;
+    gap: 1.5rem;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 300px;
+    height: 100%;
+    border-radius: 12px;
+    background-color: #EFECE5;
+    box-shadow: 0 0 0 4px rgba(202, 187, 167, 0.1);
+}
+
+/* View Styles */
+.view {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: #EFECE5;
+    box-shadow: 0 0 0 4px rgba(202, 187, 167, 0.1);
+}
